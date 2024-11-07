@@ -1,0 +1,9 @@
+config:
+  pu_gcp_268:env: gcp-pulumi-ce-team
+  gcp:project: pulumi-ce-team
+  pu_gcp_268:network: projects/pulumi-ce-team/global/networks/vpc-network-de0106b
+  pu_gcp_268:subnetwork: projects/pulumi-ce-team/regions/us-west1/subnetworks/vpc-network-de0106b
+  pu_gcp_268:hostname: hostes2.example.com
+environment:
+  - gcp-pulumi-ce-team
+encryptionsalt: v1:s2hfmG0CifM=:v1:W379Y5dsxqERJgww:i24Ph7QpeddTGSE1BYZbFQhOZs6OaA==

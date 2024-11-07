@@ -1,0 +1,10 @@
+name: pu_gcp_268
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: can you create me a program with a gcp:sql:DatabaseInstance, gcp:sql:User, and gcp:sql:Database
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/007ce994-8403-4513-acc6-b37de85c1460.zip

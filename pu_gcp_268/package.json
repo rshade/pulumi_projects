@@ -1,0 +1,13 @@
+{
+    "name": "pu_gcp_268",
+    "description": "can you create me a program with a gcp:sql:DatabaseInstance, gcp:sql:User, and gcp:sql:Database",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "dependencies": {
+        "@pulumi/pulumi": "*",
+        "@pulumi/gcp": "8.8.0"
+    }
+}
